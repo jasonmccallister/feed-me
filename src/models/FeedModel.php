@@ -3,12 +3,12 @@
 namespace craft\feedme\models;
 
 use Cake\Utility\Hash;
+use Craft;
 use craft\base\Model;
 use craft\feedme\base\Element;
 use craft\feedme\base\ElementInterface;
 use craft\feedme\helpers\DuplicateHelper;
 use craft\feedme\Plugin;
-use craft\helpers\UrlHelper;
 
 /**
  * Class FeedModel
